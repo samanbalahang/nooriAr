@@ -1,0 +1,204 @@
+@font-face {
+    font-family:'Roboto' ;
+    src: url("../fonts/ROBOTO-THIN.ttf");
+}
+@font-face {
+    font-family:'Calibri' ;
+    src: url("../fonts/Calibri.ttf");
+}
+/*
+h1.gray{
+    color: #a9adb0 !important;
+}
+*/
+header,footer{
+    font-family: 'Roboto' !important;
+}
+.site-content{
+    font-family: 'Calibri' !important;
+}
+footer .wp-block-heading{
+    font-family: 'Roboto' !important;
+}
+p{
+    text-align: justify;
+}
+
+img{
+    max-width: 100%;
+}
+html[lang="en-US"]{
+    margin-top: 0 !important;
+}
+.go-top{
+    top: -1.8rem !important;
+    cursor: pointer !important;
+    transform: translate(50%, 0);
+    color: #a9adb0 !important;
+	font-size: 0.8rem;
+}
+
+.primary-navigation{
+    display: block !important;
+    position: fixed !important;
+    width: 80vw !important;
+    height: 100vh !important;
+    background-color: white !important;
+    transform: translate(100%) !important;
+    right: 0 !important;
+    z-index: 999999 !important;
+    top: 0 !important;
+    transition: 2s !important;
+}
+header.site-header .primary-navigation  ul.menu{
+    display: block !important;
+    line-height: 3rem !important;
+}
+
+.primary-navigation.active{
+    transform: translate(0) !important;
+    transition: 2s !important;
+}
+header#masthead.site-header .logo img {
+    width: 3.5rem !important;
+    height: 3rem !important;
+}
+footer {
+    padding: 2rem 1rem !important;
+}
+#wpadminbar{
+    display: none !important;
+}
+footer .is-layout-flex{
+    flex-wrap: nowrap !important;
+}
+footer mark{
+    padding: 0 !important;
+}
+.bars-parent,
+.bars-side
+{
+    font-size: 2rem;
+    color: #a9adb0 !important;
+}
+.site-content{
+    margin-top: 5rem;
+    
+}
+.page-template-theme-news{
+    background: url(https://arkia.group/wp-content/uploads/2024/07/news-backgroung.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.news-page{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+.news-page a{
+    text-decoration: none;
+
+}
+.news-page .card{
+    border-radius: 0px 80px 0 80px !important;
+    overflow: hidden;
+    box-shadow: 3px 7px 20px 3px #000000de !important;
+    transition: 2s;
+}
+.news-page .card h1,
+.news-page .card h2,
+.news-page .card h3,
+.news-page .card h4,
+.news-page .card h5,
+.news-page .card h6
+{
+    font-size: 1rem !important;
+}
+.news-page .card-header{
+    overflow: hidden !important;
+}
+.news-page .card:hover{
+    box-shadow: 9px 9px 20px 20px #00000026 !important;
+    transform: translate(0, -1rem);
+    transition: 2s;
+    
+}
+.news-page .card .card-body{
+    padding: 2rem !important;
+    min-height: 24rem;
+}
+.news-page .card img{
+    height: 14rem;
+    transition: 2s;
+}
+.news-page .card:hover img{
+    transform: scale(1.2);
+    transition: 2s;
+}
+header.site-header .sub-menu {
+    top: 2rem !important;
+
+}
+header.site-header ul.menu li:hover>a{
+    color: #414042;
+}
+header.site-header .sub-menu>li{
+    border-bottom: 1px solid #a7a9ac ;
+}
+/*
+header.site-header .sub-menu>li:hover>a{
+    color: #414042;
+}
+*/
+#text-body {
+    height: auto !important;
+    transform: translate(0) !important
+}
+@media (min-width:768px){
+    /* html[lang="en-US"]{
+        margin-top: 46px !important;
+    } */
+    #wpadminbar{
+        display: block !important;
+    }
+    .primary-navigation{
+        display: block !important;
+        position: static !important;
+        width: auto !important;
+        background-color: transparent !important;
+        transform: translate(0) !important;
+        height: auto !important;
+    }
+    header.site-header .primary-navigation  ul.menu{
+        display: flex !important;
+        line-height: 1rem !important;
+    }
+    header.site-header{
+        margin-bottom: 0 !important;
+    }
+    header#masthead.site-header .logo img {
+        width: 10rem !important;
+        height: 9rem !important;
+    }
+    footer {
+        padding: 5rem 8rem 5rem 8rem !important;
+	}
+    .site-content{
+        margin-top: 12.4rem;
+
+    }
+    .py-md-8{
+        padding-top:8rem ;
+        padding-bottom:8rem ;
+    }
+    .my-md-8{
+        margin-top: 8rem;
+        margin-bottom: 8rem;
+    }
+}
+
+@media (max-width:768px){
+    footer {
+        padding: 0 1rem 2rem 1rem !important;
+	}
+}
